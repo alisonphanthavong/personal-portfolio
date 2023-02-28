@@ -1,0 +1,31 @@
+body {
+  font-size: 18px;
+  font-family: "Lustria", serif;
+  letter-spacing: 0.4rem;
+  background-color: #010a01;
+}
+
+h1,
+h2 {
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4.2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+.container {
+  margin-top: 20vh;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #cb9a0f,
+    0 0 82px #cb9a0f, 0 0 92px #cb9a0f, 0 0 102px #cb9a0f, 0 0 151px #cb9a0f;
+}
