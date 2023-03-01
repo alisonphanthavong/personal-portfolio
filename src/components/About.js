@@ -19,6 +19,7 @@ const About = () => {
         that at its best, code allows us to connect deeply and create without
         bounds.
       </p>
+
     </div>
   );
 };

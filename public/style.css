@@ -9,35 +9,61 @@ body {
   background-color: #010a01;
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 2rem;
+  width: 100%;
+  font-size: 0.7rem;
+  color: blanchedalmond;
+}
+
 h1,
 h2 {
   text-align: center;
   text-transform: lowercase;
   font-weight: 400;
-  letter-spacing: 0.6rem;
 }
 
 h1 {
   font-size: 4.2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.9rem;
 }
 
 h2 {
   font-size: 1.6rem;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.6rem;
+}
+
+h4 {
+  margin: 0rem;
+  font-size: 1rem;
 }
 
 a {
-  text-transform: uppercase;
+  text-transform: lowercase;
   text-decoration: none;
+  margin: 3rem 2.3rem;
+}
+
+a.contact-icons {
+  margin: 0.3rem;
+}
+
+a:hover {
+  color: black;
 }
 
 p {
-  font-family: "Tajawal", sans-serif;
-  margin: 0.5rem;
+  font-family: 'Tajawal', sans-serif;
+  margin: 1rem 8rem;
   line-height: 1.5rem;
 }
 
 .container {
-  margin-top: 20vh;
+  margin-top: 17vh;
 }
 
 .neonText {
@@ -50,4 +76,12 @@ p {
   color: #fff;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #cb9a0f,
     0 0 82px #cb9a0f, 0 0 92px #cb9a0f, 0 0 102px #cb9a0f, 0 0 151px #cb9a0f;
+}
+
+.neonProject {
+  color: #fff;
+  letter-spacing: 0.6rem;
+  margin: 0rem;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #24b9db,
+    0 0 82px #24b9db, 0 0 92px #24b9db, 0 0 102px #24b9db, 0 0 151px #24b9db;
 }
