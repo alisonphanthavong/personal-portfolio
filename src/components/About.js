@@ -14,7 +14,7 @@ const About = () => {
       <p>
         I've always been fascinated by how the human experience translates
         through language. Learning coding as a former teacher of literature has
-        presented a series of new delights in this respect -- written code
+        presented a series of new delights in this respect — written code
         operates as bridge between human and technology. I thrive in that
         creative and liminal space, seeking the best way the pieces fit
         together, and building with others to solve complex problems. I believe
