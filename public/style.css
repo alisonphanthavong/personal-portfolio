@@ -10,12 +10,14 @@ body {
 }
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
-  bottom: 2rem;
+  bottom: 0;
   width: 100%;
   font-size: 0.7rem;
   color: blanchedalmond;
+  padding-top: 2rem;
+  height: 3rem;
 }
 
 h1,
@@ -84,4 +86,9 @@ p {
   margin: 0rem;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #24b9db,
     0 0 82px #24b9db, 0 0 92px #24b9db, 0 0 102px #24b9db, 0 0 151px #24b9db;
+}
+
+.ovid-quote {
+  margin: 6rem;
+  font-style: italic;
 }
