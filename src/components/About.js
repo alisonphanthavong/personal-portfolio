@@ -5,13 +5,11 @@ const About = () => {
   return (
     <div>
       <h1>About</h1>
-      <img src="../public/images/profile.png" width="100" height="100"/>
+      <img class="profile-photo" src={"/images/profile.jpg"} height="200" width="200"/>
       <p>
         Hi! I'm Alison, a fervent student of words and an educator turned coder
         based in Alexandria, Virginia.
       </p>
-
-      <p>Technologies: JavaScript, Node.js, React/Redux, Express, SQL, Git, HTML5, CSS</p>
 
       <p>
         I've always been fascinated by how the human experience translates
@@ -25,10 +23,9 @@ const About = () => {
       </p>
 
       <p>
-        My life's passions include public service, all things food and wine, and
+        Outside of technology, my passions include public service, all things food and wine, and
         learning via cultivating relationships.
       </p>
-
     </div>
   );
 };

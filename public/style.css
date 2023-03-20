@@ -92,3 +92,15 @@ p {
   margin: 6rem;
   font-style: italic;
 }
+
+.profile-photo {
+  border-radius: 50%;
+}
+
+.technologies {
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 45%;
+  margin: auto;
+}
