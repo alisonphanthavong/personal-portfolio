@@ -116,8 +116,8 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .technologies {
