@@ -136,6 +136,10 @@ p {
   h2 {
     font-size: 1rem;
   }
+
+  .technologies {
+    width: 75%;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -148,11 +152,11 @@ p {
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   h4 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   p {
@@ -163,9 +167,5 @@ p {
   .intro {
     padding-left: 6rem;
     padding-right: 6rem;
-  }
-
-  .technologies {
-    width: 75%;
   }
 }
