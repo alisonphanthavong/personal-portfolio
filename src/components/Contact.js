@@ -10,6 +10,7 @@ const Contact = () => {
         Send me an email at alisonphanthavong@gmail.com, or see what I'm
         building lately on LinkedIn or GitHub.
       </p>
+      <div class="icon-bundle">
       <a class="contact-icons" href="https://github.com/alisonphanthavong">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -193,6 +194,7 @@ const Contact = () => {
           </g>
         </svg>
       </a>
+      </div>
     </div>
   );
 };
