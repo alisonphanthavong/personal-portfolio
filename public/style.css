@@ -139,7 +139,16 @@ p {
 }
 
 @media screen and (min-width: 769px) {
-  p {
+  h2 {
+    font-size: 2rem;
+  }
+
+  a {
     font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+    line-height: 2rem;
   }
 }
